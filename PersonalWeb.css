@@ -1,0 +1,232 @@
+
+.btn-secondary {
+    background-color: rgba(245, 160, 137,0.8);
+    border-color: rgba(241, 227, 252,0.9);
+}
+
+.nav-default:hover{
+    color: rgba(241, 227, 252,0.9);
+}
+
+.btn-default {
+    background-color: rgba(245, 160, 137,0.5);
+    border-color: rgba(241, 227, 252,0.5);
+    color: whitesmoke;
+}
+
+.btn-default:hover{
+    background-color: rgba(176, 62, 48,0.5);
+    border-color: rgba(241, 227, 252,0.5);
+    color: whitesmoke;
+}
+
+div > a:hover {
+    color: olivedrab;
+}
+
+.display-4{
+    color: rgb(252, 150, 144);
+}
+
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+header >.navbar {
+    background-color: rgba(255, 245, 245,0.6);
+}
+
+body {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+    color: #545454;
+    font-family: sans-serif,Helvetica, monospace, "Helvetica Neue";
+    font-size: 16px;
+    line-height: 1.5;
+    margin:0;
+    border:0;
+}
+
+
+main {
+    background:linear-gradient(2deg, #faad93,  #fce5a3, #c2ccfc);
+    background-size: 600% 600%;
+    animation:gradient 25s ease infinite;
+
+}
+
+.square-box>div {
+    width:100%;
+    height: 100%;
+    position:absolute;
+    background: rgba(255, 246, 245,0.9);
+    border: 1px solid rgba(176, 62, 48,0.1);
+}
+
+.square-box {
+    width:200px;
+    height:200px;
+    margin:auto;
+    position:relative;
+    transform-style: preserve-3d;
+    animation: span 20s infinite linear;
+}
+
+            
+h1 {
+    color: rgb(252, 219, 217);
+    font-weight: 20;
+    font-family:serif;
+    font-size: relative;
+    line-height: relative;
+}
+
+h3 {
+    text-align: center;
+    font-size: 15pt;
+    padding-top: 1rem;
+    font-family:serif;
+}
+
+a {
+    color:rgb(186, 56, 67);
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+img {
+    background: transparent;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#contactCube {
+    margin-top:2.5rem;
+    height:120px;
+    display:block;
+    text-align: center;
+    font-family:cursive;
+    color: rgba(176, 62, 48,0.7);
+    font-size:30px;
+    background-color: rgba(250,250,250,0.9);
+}
+
+/* Carousel base class */
+.carousel-indicators li {
+    margin-right: 1.5rem;
+    border-radius:100%;
+    width:15px;
+    height:15px;
+    background-color:rgba(255, 224, 222);
+}
+
+.carousel {
+  margin-bottom: 5rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: auto;
+  max-height:920px;  
+  background-color: #777;
+}
+
+#gallery-icon {
+    background-color: rgba(245, 160, 137,0.8);
+    border-radius: 3px;
+}
+
+#contactInfo {
+    background-color: rgba(245, 166, 142,0.5);
+    color:white;
+}
+
+#artwork {
+    color:darkslategray;
+    text-shadow: 3px 2px rgb(247, 230, 252);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-item > img {
+  position: center;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+.front {transform:translateZ(100px);}
+            .back {transform:translateZ(-100px);}
+            .left {transform: rotateY(90deg) translateZ(100px);}
+            .right {transform: rotateY(-90deg) translateZ(100px);}
+            .top {transform: rotateX(90deg) translateZ(100px);}
+            .bottom {transform: rotateX(-90deg) translateZ(100px);}
